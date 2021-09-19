@@ -7,7 +7,7 @@ have you found a web directory that has a bunch of various file types? with this
 1. [Download](https://github.com/Pasanlaksitha/Directory-File-Download.git), Unzip, Install Requiermetnts.txt start Pull files from a directory.
 
 ```bash
-git pull 
+git pull https://github.com/Pasanlaksitha/Directory-File-Download/blob/main/LICENSE
 ```
 
 ## Usage | How to Use.
