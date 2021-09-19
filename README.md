@@ -4,7 +4,7 @@ have you found a web directory that has a bunch of various file types? with this
 
 ## Installation
 
-1. [Download](https://pip.pypa.io/en/stable/), Unzip, Install Requiermetnts.txt start Pull files from a directory.
+1. [Download](https://github.com/Pasanlaksitha/Directory-File-Download.git), Unzip, Install Requiermetnts.txt start Pull files from a directory.
 
 ```bash
 git pull 
