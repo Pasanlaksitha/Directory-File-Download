@@ -19,6 +19,13 @@ Enter file Type | Leave empty to Download All: #(enter Files type)
 Directory LINK to PULL files : (Directory link )
 
 ```
+## Proxy Change
+
+Change Proxy as your wish
+
+![ScreenShot](readme-img/1.png)
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
