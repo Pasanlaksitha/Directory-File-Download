@@ -26,4 +26,4 @@ Still, this tool has some BUGs and Clash when working make sure to submit bug an
 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU](https://github.com/Pasanlaksitha/Directory-File-Download/blob/main/LICENSE)
