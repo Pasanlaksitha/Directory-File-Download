@@ -12,6 +12,8 @@ git pull https://github.com/Pasanlaksitha/Directory-File-Download/blob/main/LICE
 
 ## Usage | How to Use.
 
+### Run runner.py and do followings 👇
+
 ```bash
 Enter file Type | Leave empty to Download All: #(enter Files type)
 
