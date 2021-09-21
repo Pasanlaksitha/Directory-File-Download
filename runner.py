@@ -1,7 +1,11 @@
 from file_downloader import FileDownloader
 
-filetype = input("Enter file Type | Leave empety to Download All: ")
 link = input("Directory LINK to PULL files : ")
+filetype = input("Enter file Type | Leave empety to Download All: ")
+log = input("Enter log file name | Leave empety to skip logging: ")
 
-f = FileDownloader(link, 'log.txt')
+if not log.endswith(".txt"):
+    log += '.txt'
+
+f = FileDownloader(link, log)
 f.download(filetype)
