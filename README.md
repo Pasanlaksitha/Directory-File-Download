@@ -21,11 +21,7 @@ Enter file Type | Leave empty to Download All: #(enter Files type)
 Directory LINK to PULL files : (Directory link )
 
 ```
-## Proxy Change
 
-Change Proxy as your wish
-
-![ScreenShot](readme-img/1.png)
 
 
 
