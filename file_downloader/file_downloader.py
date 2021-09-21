@@ -65,7 +65,3 @@ class FileDownloader:
         with open('Dowloads/' + file, 'wb')as f:
             f.write(requests.get(url).content)
 
-
-if __name__ == '__main__':
-    f = FileDownloader('http://localhost/img/', 'log.txt', True)
-    f.download('epub')

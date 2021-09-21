@@ -21,9 +21,9 @@ have you found a web directory that has a bunch of various file types? with this
 ### Run runner.py and do followings 👇
 
 ```bash
-Directory LINK to PULL files : 
-Enter file Type | Leave empety to Download All: 
-Enter log file name | Leave empety to skip logging: 
+Directory URL to download files : http://localhost/
+Enter file Type | Leave empty to Download All: 
+Enter log file name | Leave empty to skip logging: 
 
 ```
 
