@@ -33,21 +33,21 @@ class FileDownloader:
                 print('[-]Please use log or URL')
 
             print('[+]Loading data')
-            with open(self.log, 'r') as f:
-                self.files = [i.replace('\n', '') for i in f.readlines()]
+            with open(self.log, 'r') as file:
+                self.files = [i.replace('\n', '') for i in file.readlines()]
             print('[+]Data loaded')
 
     def bs4(self):
-        l = []
+        files = list()
         bs = BeautifulSoup(self.req, 'html.parser')
         for a in bs.findAll('tr'):
             for b in a.findAll('td'):
                 if b.find('a'):
                     obj = b.find('a').get('href')
-                    if not obj in ['/', '?', '#']:
-                        l.append(obj)
+                    if obj not in ['/', '?', '#']:
+                        files.append(obj)
                         print(f'[+]File found: {obj}')
-        return l
+        return files
 
     def download(self, type_=None):
         if not os.path.exists('Dowloads'):
@@ -60,10 +60,10 @@ class FileDownloader:
             print(f'[+]Downloaded: {file}')
         print(f'[+]All {type_ + " " if type_ else ""}files downloaded')
 
-    def download_m(self, f):
-        url = self.url + f
-        with open('Dowloads/' + f, 'wb')as file:
-            file.write(requests.get(url).content)
+    def download_m(self, file):
+        url = self.url + file
+        with open('Dowloads/' + file, 'wb')as f:
+            f.write(requests.get(url).content)
 
 
 if __name__ == '__main__':

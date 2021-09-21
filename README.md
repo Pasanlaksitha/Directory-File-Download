@@ -4,21 +4,26 @@ have you found a web directory that has a bunch of various file types? with this
 
 ## Installation
 
-1. [Download](https://github.com/Pasanlaksitha/Directory-File-Download.git), Unzip, Install Requiermetnts.txt start Pull files from a directory.
+1. [Download](https://github.com/Pasanlaksitha/Directory-File-Download.git) and  unzip or
 
-```bash
-git pull https://github.com/Pasanlaksitha/Directory-File-Download/blob/main/LICENSE
-```
+    ```bash
+    git clone https://github.com/Pasanlaksitha/Directory-File-Download.git
+    ```
 
+2. Install requirements.txt
+
+    ```bash
+    python -m pip inatall -r requirements.txt
+    ```
+#
 ## Usage | How to Use.
 
 ### Run runner.py and do followings 👇
 
 ```bash
-Enter file Type | Leave empty to Download All: #(enter Files type)
-
-
-Directory LINK to PULL files : (Directory link )
+Directory LINK to PULL files : 
+Enter file Type | Leave empety to Download All: 
+Enter log file name | Leave empety to skip logging: 
 
 ```
 
