@@ -29,7 +29,7 @@ Enter log file name | Leave empty to skip logging:
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Still, this tool has some BUGs and Clash when working make sure to submit bug and appreciate you contribution with us
+Still, this tool has some BUGs and Clash when working make sure to submit bug and we appreciate you contribution with us
 
 
 ## License
